@@ -5,12 +5,12 @@
 //    and return the area of that rectangle.
 //    The area of a rectangle is the width * height
 
-function rectangle(, h){
+function rectangle(w, h){
   return (w * h);
 }
 
 
-console.log(rectangle);
+console.log(rectangle(5, 22));
 
 
 // 3. Create a function that calculates the volume of a rectangular prism.
@@ -21,7 +21,7 @@ console.log(rectangle);
 function rPrism(w, h, l){
   return (w * h * l);
 }
-console.log(rPrism);
+console.log(rPrism(4.5, 12.5, 17.4));
 
 // 4. Create a function that calculates the area of a circle.
 //    The function should accept the radius of the circle as an argument
@@ -32,7 +32,7 @@ function cArea(radius){
   return Math.PI * Math.sqrt(radius);
 }
 
-console.log(cArea);
+console.log(cArea(7.2));
 
 // 5. Create a function that calculates the volume of a sphere.
 //    The function should accept the radius of the sphere as an argument
@@ -42,7 +42,7 @@ function vSphere(radius){
   return 4/3 * Math.PI * Math.sqrt(radius);
 }
 
-console.log(vSphere);
+console.log(vSphere(7.2));
 
 
 // 6. Use console.log to test each function and output to the JavaScript console
