@@ -37,7 +37,11 @@ cArea();
 //    The function should accept the radius of the sphere as an argument
 //    and return the volume.
 //    The volume of a circle is: 4/3 *  π * radius^3
+function vSphere(radius){
+  return 4/3 * Math.PI * Math.sqrt(radius);
+}
 
+vSphere()
 // 6. Use console.log to test each function and output to the JavaScript console
 //    Here are the values to test and the expected results
 //    -- Area of rectangle that is 5 wide and 22 tall: 110
