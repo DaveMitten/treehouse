@@ -9,7 +9,8 @@ function rectangle(, h){
   return (w * h);
 }
 
-rectangle();
+
+console.log(rectangle);
 
 
 // 3. Create a function that calculates the volume of a rectangular prism.
@@ -20,8 +21,8 @@ rectangle();
 function rPrism(w, h, l){
   return (w * h * l);
 }
+console.log(rPrism);
 
-rPrism();
 // 4. Create a function that calculates the area of a circle.
 //    The function should accept the radius of the circle as an argument
 //    and return the area of that circle.
@@ -31,7 +32,7 @@ function cArea(radius){
   return Math.PI * Math.sqrt(radius);
 }
 
-cArea();
+console.log(cArea);
 
 // 5. Create a function that calculates the volume of a sphere.
 //    The function should accept the radius of the sphere as an argument
@@ -41,7 +42,9 @@ function vSphere(radius){
   return 4/3 * Math.PI * Math.sqrt(radius);
 }
 
-vSphere()
+console.log(vSphere);
+
+
 // 6. Use console.log to test each function and output to the JavaScript console
 //    Here are the values to test and the expected results
 //    -- Area of rectangle that is 5 wide and 22 tall: 110
