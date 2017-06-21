@@ -29,7 +29,7 @@ console.log(rPrism(4.5, 12.5, 17.4));
 //    The area of a circle is the value of π * radius^2
 
 function cArea(radius){
-  return Math.PI * Math.sqrt(radius);
+  return Math.PI * (Math.sqrt(radius));
 }
 
 console.log(cArea(7.2));
