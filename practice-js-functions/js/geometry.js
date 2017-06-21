@@ -29,7 +29,7 @@ console.log(rPrism(4.5, 12.5, 17.4));
 //    The area of a circle is the value of π * radius^2
 
 function cArea(radius){
-  return Math.PI * (Math.sqrt(radius));
+  return Math.pow(radius, 2) * Math.PI;
 }
 
 console.log(cArea(7.2));
@@ -39,7 +39,8 @@ console.log(cArea(7.2));
 //    and return the volume.
 //    The volume of a circle is: 4/3 *  π * radius^3
 function vSphere(radius){
-  return 4/3 * Math.PI * Math.sqrt(radius);
+  return (4/3)*Math.pow(radius, 3)*Math.PI;
+
 }
 
 console.log(vSphere(7.2));
